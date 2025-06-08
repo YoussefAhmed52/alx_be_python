@@ -22,3 +22,5 @@ if Celsius_or_Fahrenheit == "F".upper():
 elif Celsius_or_Fahrenheit == "C".upper():
     celsius = temperature
     print(f"{celsius}°C is {convert_to_fahrenheit(celsius):.2f}°F")
+else:
+    print("Invalid temperature. Please enter a numeric value.")
